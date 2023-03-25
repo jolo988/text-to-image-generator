@@ -63,4 +63,3 @@ function hideSpinner() {
   button.innerHTML = 'Dream'
 }
 //grabs same button, but sets disabled state false -> resets innerhtml to dream text
-
