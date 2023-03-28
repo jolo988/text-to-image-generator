@@ -2,6 +2,9 @@ import './style.css'
 
 const form = document.querySelector('form');
 
+
+//add keyboard 'enter' event
+
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
   //define callback that runs when submit event takes place and gives access to event data
