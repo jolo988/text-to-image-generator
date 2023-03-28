@@ -49,6 +49,5 @@ app.post('/dream', async (req, res) => {
 //image: createImage will give response object containing image url
 //once image is available -> send back to user as a response for browser to receive data as JSON
 
-
 app.listen(8080, () => console.log('make art on http://localhost:8080/dream'));
 //start server with app you want to use, serve on localhost:8080
