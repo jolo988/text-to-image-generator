@@ -2,7 +2,6 @@ import './style.css'
 
 const form = document.querySelector('form');
 
-
 //add keyboard 'enter' event
 
 form.addEventListener('submit', async (e) => {
