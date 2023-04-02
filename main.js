@@ -11,7 +11,7 @@ form.addEventListener('submit', async (e) => {
   //e.preventdefault prevents whole page from refreshing when form's submitted 
   
   showSpinner();
-  //loading spinner
+  //loading spinner while waiting for server
 
   const data = new FormData(form);
   //data obj to extract data from form (instantiate form data obj using form as input)
