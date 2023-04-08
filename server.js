@@ -32,7 +32,6 @@ app.post('/dream', async (req, res) => {
 		res.status(500).send(error?.response.data.error.message || 'Something went wrong');
 	}
 }); 
-
 //error handling: wrap in try catch block 
 //create end-point: HTTP method POST is best option: creating new piece of data
 //catch fail on server side. error? gives error response from openAI, or else something else went wrong
